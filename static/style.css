@@ -74,3 +74,16 @@ textarea {
     justify-content: center;
     flex-wrap: wrap;
 }
+
+.spinner-border {
+    width: 1rem;
+    height: 1rem;
+    vertical-align: text-bottom;
+    border: .25em solid currentColor;
+    border-right-color: transparent;
+    border-radius: 50%;
+    animation: spinner-border .75s linear infinite;
+}
+@keyframes spinner-border {
+    to { transform: rotate(360deg); }
+}
