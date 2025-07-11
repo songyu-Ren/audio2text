@@ -1,0 +1,49 @@
+# Python/Flask specifics
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+*.egg
+
+# Virtual environment
+venv/
+env/
+.venv/
+audio/
+.env
+
+# Temp and cache files
+*.tmp
+*.swp
+*.bak
+~*
+*.log
+*.pid
+*.seed
+*.db
+.pytest_cache/
+.cache/
+.hypothesis/
+
+# OS-specific (Mac/Windows)
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Whisper-specific (if local caches end up in project; usually in ~/.cache)
+whisper_cache/
+
+# Misc
+node_modules/  # If you add JS deps later
+dist/
+build/
