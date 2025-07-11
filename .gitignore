@@ -8,6 +8,7 @@ __pycache__/
 *.egg
 
 # Virtual environment
+# Virtual environment
 venv/
 env/
 .venv/
